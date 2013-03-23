@@ -1,0 +1,257 @@
+.stats_table {
+        vertical-align: top;
+	position: inherit;
+	width: 272px;
+	height: 504px;
+	margin: auto;
+float:left;
+	}
+.stats_table td {
+        vertical-align: top;
+	padding: 0px;
+	}
+#stats1 {
+	height: 114px;
+	width: 274px;
+	}
+#stats1_1 {
+	height: 112px;
+	width: 272px;
+	background: white;
+	border: 1px solid #888;
+        vertical-align: middle;
+	text-align: center;
+	}
+#stats_avatar {
+	width: 106px;
+	padding: 0px;
+	background: white;
+	}
+#stats_avatar img {
+	border: 1px solid #888;
+        margin-top: 1px;
+	}
+#stats_title_ins {
+	width: 154px;
+	border: 1px solid #888;
+        margin-top: 2px;
+	height: 76px;
+}
+#points_val {
+	width: 154px;
+        margin-top: 2px;
+	background: white;
+	border: 1px solid #888;
+	height: 19px;
+}
+#stats2 {
+	height: 46px;
+	width: 272px;
+	text-align: center;
+	}
+#stats2_1 {
+	height: 38px;
+        margin-top: 8px;
+	}
+#stats2_0 {
+	height: 16px;
+	}
+#stats2_2 {
+	width: 30px;
+	padding: 0px;
+	background: #666666;
+	color: white;
+	font-weight: bold;
+	}
+#stats2_3 {
+	width: 204px;
+	padding: 0px;
+	color: white;
+	font-weight: bold;
+	}
+#exp_bar {
+	width: 200px;
+	height: 14px;
+	background: white;
+	border: 1px solid #888;
+	text-align: left;
+	background-image: url(images/stats_exp.gif);
+	background-repeat: no-repeat;
+	background-position: -200px 0px;
+        left: 0px;
+	overflow: hidden;
+	}
+#stats2_4 {
+	width: 34px;
+	padding: 0px;
+	background: #666666;
+	color: white;
+	font-weight: bold;
+	}
+.stats3 {
+	height: 6px;
+	width: 272px;
+	}
+.stats34 {
+	height: 66px;
+	width: 272px;
+	background: #666666;
+	}
+.stats4 {
+	height: 72px;
+	width: 272px;
+	background: #666666;
+	}
+.stats45 {
+	height: 92px;
+	width: 272px;
+	background: #666666;
+	}
+.stats_row
+{
+	width: 272px;
+	text-align: left;
+}
+.stats_row td
+{
+	color: white;
+	height: 16px;
+	padding: 1px;
+}
+.stats_row td.stats_row1
+{
+	border: 1px solid #888;
+        background: white;
+	padding: 0px;
+	padding-left: 5px;
+	color: black;
+	height: 26px;
+}
+.stats_row1_val {
+	margin-top: 4px;
+	float: left;
+}
+.stats_row td.stats_column1
+{
+	width: 94px;
+	padding-left: 4px;
+        vertical-align: middle;
+}
+.add_stats {
+        position:relative;
+	float:right;
+	margin-top: 1px;
+	margin-right: 2px;
+	}
+/* drop table
+ ------------ */
+.drop_table {
+	width: 278px;
+	height: 220px;
+	margin: auto;
+	position:relative;
+}
+.drop_table td {
+	border: 1px dashed #888;
+        vertical-align: middle;
+	text-align: center;
+	padding: 0px;
+}
+.drop_middle {
+	height: 160px;
+	background: #c6c6c6;
+	overflow: hidden;
+	text-align: center;
+	padding: 0px;
+	}
+/* effects table
+ ------------ */
+.effects_table {
+	width: 278px;
+	height: 120px;
+	margin: auto;
+        margin-top:40px;
+	position:relative;
+}
+.effects_table td {
+	border: 1px dashed #888;
+        vertical-align: middle;
+	text-align: center;
+	padding: 0px;
+}
+.effects_table td.effects_middle {
+	height: 60px;
+	overflow: hidden;
+	padding: 0px;
+        background: #c6c6c6 url('images/skills.gif') no-repeat;
+        background-position: 20px 8px;
+        vertical-align: top;
+	text-align: left;
+}
+/* skills
+ ------------ */
+.action_cont {
+        width: 32px;
+        height: 38px;
+        text-align: center;
+	float: left;
+}
+.action {
+	position: relative;
+	margin-top: 6px;
+}
+.skills_table {
+	position: relative;
+        margin-left: 20px;
+	margin-top: 8px;
+}
+.skills_table td {
+	border: none;
+        padding: 0px;
+}
+.main_view {
+	position: relative;
+	font-family: Verdana;
+	font-size: 13px;
+	z-index: 90;
+	visibility:visible;
+}
+.window {
+	height:38px;
+	width: 192px;
+        overflow: hidden;
+	position: relative;
+}
+.image_reel {
+	position: absolute;
+        top: 0px;
+        left: 0px;
+}
+.paging {
+	position: relative;
+	z-index: 100;
+	text-align: center;
+	line-height: 20px;
+}
+.paging_left {
+}
+.paging_right {
+}
+.paging a {
+	display: block;
+	width: 20px;
+	height:43px;
+	padding: 0px;
+}
+.paging_left a {
+	background: url(images/skills_btn_left.gif) no-repeat;
+}
+.paging_left a:hover {
+	background: url(images/skills_btn_left_a.gif) no-repeat;
+}
+.paging_right a {
+	background: url(images/skills_btn_right.gif) no-repeat;
+}
+.paging_right a:hover {
+	background: url(images/skills_btn_right_a.gif) no-repeat;
+}

@@ -1,0 +1,130 @@
+#npc32_inventory_ani {
+	position: absolute;
+	z-index: 5;
+	opacity:0.70;
+	filter:alpha(opacity=70);
+	}
+.cmachine_table {
+	width: 558px;
+	height: 570px;
+	margin: auto;
+	position: absolute;
+	top: 0px;
+	overflow: hidden;
+	z-index: -3;
+}
+.cmachine_table td {
+        vertical-align: middle;
+	text-align: center;
+	padding: 0px;
+	overflow: hidden;
+}
+#chaos_machine {
+	border: 1px solid #888;
+        height: 86%;
+	background: #c6c6c6;
+        overflow: hidden;
+	text-align: center;
+        vertical-align: top;
+	padding-top: 18px;
+	padding-left: 61px;
+	}
+#cmachine_legend {
+	position: absolute;
+	left:360px;
+	top:40px;
+	width:180px;
+	height:20px;
+	border: 1px solid #888;
+        background: white;
+	text-align: center;
+        padding-top: 2px;
+	z-index: 4;
+	}
+#cmachine_legend a {
+	display: block;
+	color: black;
+	text-decoration: none;
+	}
+#cmachine_main {
+	position: absolute;
+	left:62px;
+	top: 52px;
+	z-index: -2;
+	}
+#cmachine_overlay {
+	position: absolute;
+	left:62px;
+	top: 52px;
+	z-index: -2;
+	}
+#cmachine_underlay {
+	position: absolute;
+	left:62px;
+	top: 52px;
+	z-index: -2;
+	}
+#cmachine_goblin_underlay {
+	position: absolute;
+	width:536px;
+	height:110px;
+	background: black;
+	opacity:0.60;
+	filter:alpha(opacity=60);
+	left:10px;
+	top:420px;
+	z-index: 2;
+	}
+#cmachine_goblin {
+	position: absolute;
+	width:536px;
+	height:110px;
+	color: white;
+	text-align: left;
+        vertical-align: middle;
+	padding: 3px;
+	left:10px;
+	top:420px;
+	z-index: 3;
+	}
+#cmachine_goblin td:first-child {
+	width:110px;
+	}
+#cmachine_mix {
+	width:46px;
+	padding-top: 6px;
+	}
+#cmachine_inventory {
+	position: inherit;
+	padding-left:136px;
+	padding-top:202px;
+	width:380px;
+	height:100%;
+	z-index: 3;
+	}
+.cmachine_inventory {
+	border: 1px solid #888;
+        background: white;
+	position: inherit;
+	}
+.cmachine_inventory td {
+	width: 32px;
+	height: 32px;
+	background: #999999;
+	overflow: hidden;
+        vertical-align: top;
+	padding: 0px;
+	}
+.cmachine_inventory td.occupied {
+	background: #5E767E;
+	}
+.cmachine_inventory td.dropactive {
+	background: #669966;
+	}
+.cmachine_inventory td.dropactivered {
+	background: #806D7E;
+	}
+#js_output {
+	border: 1px dashed #888;
+	height: 24px;
+	}

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<map>
+<!-- monster data -->
+<monster name="skeleton">
+<level>19</level>
+<hp>525</hp>
+<damage>74</damage>
+<defense>22</defense>
+<damage_rate>93</damage_rate>
+<defense_rate>22</defense_rate>
+</monster>
+<monster name="larva">
+<level>25</level>
+<hp>750</hp>
+<damage>95</damage>
+<defense>31</defense>
+<damage_rate>125</damage_rate>
+<defense_rate>31</defense_rate>
+</monster>
+<monster name="cyclops">
+<level>28</level>
+<hp>850</hp>
+<damage>105</damage>
+<defense>35</defense>
+<damage_rate>140</damage_rate>
+<defense_rate>35</defense_rate>
+</monster>
+<monster name="ghost">
+<level>32</level>
+<hp>1000</hp>
+<damage>115</damage>
+<defense>40</defense>
+<damage_rate>160</damage_rate>
+<defense_rate>39</defense_rate>
+</monster>
+<monster name="skeleton_archer">
+<level>34</level>
+<hp>1100</hp>
+<damage>120</damage>
+<defense>45</defense>
+<damage_rate>170</damage_rate>
+<defense_rate>41</defense_rate>
+</monster>
+<monster name="hell_hound">
+<level>38</level>
+<hp>1400</hp>
+<damage>130</damage>
+<defense>55</defense>
+<damage_rate>190</damage_rate>
+<defense_rate>45</defense_rate>
+</monster>
+<monster name="hell_spider">
+<level>40</level>
+<hp>1600</hp>
+<damage>135</damage>
+<defense>600</defense>
+<damage_rate>200</damage_rate>
+<defense_rate>47</defense_rate>
+</monster>
+<monster name="elite_skeleton">
+<level>42</level>
+<hp>1800</hp>
+<damage>140</damage>
+<defense>65</defense>
+<damage_rate>210</damage_rate>
+<defense_rate>49</defense_rate>
+</monster>
+<monster name="thunder_lich">
+<level>44</level>
+<hp>2000</hp>
+<damage>145</damage>
+<defense>70</defense>
+<damage_rate>220</damage_rate>
+<defense_rate>55</defense_rate>
+</monster>
+<monster name="poison_bull_fighter">
+<level>46</level>
+<hp>2500</hp>
+<damage>150</damage>
+<defense>75</defense>
+<damage_rate>230</damage_rate>
+<defense_rate>61</defense_rate>
+</monster>
+<monster name="dark_knight">
+<level>48</level>
+<hp>3000</hp>
+<damage>155</damage>
+<defense>80</defense>
+<damage_rate>240</damage_rate>
+<defense_rate>70</defense_rate>
+</monster>
+<monster name="gorgon">
+<level>55</level>
+<hp>6000</hp>
+<damage>175</damage>
+<defense>100</defense>
+<damage_rate>275</damage_rate>
+<defense_rate>82</defense_rate>
+</monster>
+<!-- npc -->
+<!-- spots -->
+<spot id="spot31" x="484" y="220">
+<encounter>skeleton</encounter>
+<encounter>larva</encounter>
+</spot>
+<spot id="spot32" x="498" y="46">
+<encounter>skeleton</encounter>
+<encounter>cyclops</encounter>
+</spot>
+<spot id="spot33" x="360" y="100">
+<encounter>ghost</encounter>
+<encounter>larva</encounter>
+</spot>
+<spot id="spot34" x="254" y="508">
+<encounter>ghost</encounter>
+<encounter>cyclops</encounter>
+</spot>
+<spot id="spot35" x="264" y="384">
+<encounter>ghost</encounter>
+<encounter>skeleton_archer</encounter>
+<encounter>hell_hound</encounter>
+</spot>
+<spot id="spot36" x="40" y="418">
+<encounter>hell_spider</encounter>
+<encounter>thunder_lich</encounter>
+<encounter>elite_skeleton</encounter>
+</spot>
+<spot id="spot37" x="40" y="80">
+<encounter>poison_bull_fighter</encounter>
+<encounter>thunder_lich</encounter>
+<encounter>elite_skeleton</encounter>
+</spot>
+<spot id="spot38" x="250" y="60">
+<encounter>poison_bull_fighter</encounter>
+<encounter>gorgon</encounter>
+<encounter>dark_knight</encounter>
+</spot>
+</map>

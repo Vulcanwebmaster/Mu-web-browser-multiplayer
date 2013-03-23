@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<map>
+<!-- monster data -->
+<monster name="worm">
+<level>20</level>
+<hp>600</hp>
+<damage>80</damage>
+<defense>25</defense>
+<damage_rate>80</damage_rate>
+<defense_rate>25</defense_rate>
+</monster>
+<monster name="ice_monster">
+<level>22</level>
+<hp>650</hp>
+<damage>85</damage>
+<defense>27</defense>
+<damage_rate>110</damage_rate>
+<defense_rate>27</defense_rate>
+</monster>
+<monster name="hommerd">
+<level>24</level>
+<hp>700</hp>
+<damage>90</damage>
+<defense>29</defense>
+<damage_rate>120</damage_rate>
+<defense_rate>29</defense_rate>
+</monster>
+<monster name="assassin">
+<level>26</level>
+<hp>800</hp>
+<damage>120</damage>
+<defense>43</defense>
+<damage_rate>130</damage_rate>
+<defense_rate>33</defense_rate>
+</monster>
+<monster name="yeti">
+<level>30</level>
+<hp>900</hp>
+<damage>120</damage>
+<defense>57</defense>
+<damage_rate>150</damage_rate>
+<defense_rate>37</defense_rate>
+</monster>
+<monster name="elite_yeti">
+<level>36</level>
+<hp>1200</hp>
+<damage>155</damage>
+<defense>50</defense>
+<damage_rate>180</damage_rate>
+<defense_rate>43</defense_rate>
+</monster>
+<monster name="ice_queen">
+<level>52</level>
+<hp>4000</hp>
+<damage>225</damage>
+<defense>100</defense>
+<damage_rate>260</damage_rate>
+<defense_rate>76</defense_rate>
+</monster>
+<!-- npc -->
+<npc id="isabel" type="s" x="84" y="508">shop.php?id=devias1</npc>
+<npc id="zienna" type="s" x="98" y="423">shop.php?id=devias2</npc>
+<npc id="caren" type="s" x="44" y="464">shop.php?id=devias3</npc>
+<!-- spots -->
+<spot id="spot41" x="180" y="494">
+<encounter>worm</encounter>
+<encounter>hommerd</encounter>
+</spot>
+<spot id="spot42" x="264" y="334">
+<encounter>assassin</encounter>
+<encounter>yeti</encounter>
+<encounter>ice_monster</encounter>
+</spot>
+<spot id="spot43" x="60" y="114">
+<encounter>assassin</encounter>
+<encounter>yeti</encounter>
+<encounter>elite_yeti</encounter>
+</spot>
+<spot id="spot44" x="440" y="488">
+<encounter>worm</encounter>
+<encounter>elite_yeti</encounter>
+</spot>
+<spot id="spot45" x="460" y="100">
+<encounter>elite_yeti</encounter>
+<encounter>ice_queen</encounter>
+</spot>
+</map>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<shop>
+<item id="0">5.22.0.0004.00.0.1025.2030.03.0.0.00.00.0.024.024.000000.vine_helm</item>
+<item id="1">1</item>
+<item id="2">3.22.0.0008.00.0.1029.2038.03.0.0.00.00.0.024.024.000000.vine_armor</item>
+<item id="3">1</item>
+<item id="4">4.22.0.0006.00.0.1027.2034.03.0.0.00.00.0.024.024.000000.vine_pants</item>
+<item id="5">1</item>
+<item id="6">6.22.0.0002.00.0.1023.2027.03.0.0.00.00.0.024.024.000000.vine_gloves</item>
+<item id="7">1</item>
+
+<item id="8">1</item>
+<item id="9">1</item>
+<item id="10">1</item>
+<item id="11">1</item>
+<item id="12">1</item>
+<item id="13">1</item>
+<item id="14">1</item>
+<item id="15">1</item>
+
+<item id="16">7.22.0.0002.00.0.1024.2029.03.0.0.00.00.0.024.024.000000.vine_boots</item>
+<item id="17">1</item>
+<item id="18">2.23.8.0005.00.0.1021.2024.03.0.0.00.00.0.050.050.000000.short_bow</item>
+<item id="19">1</item>
+<item id="20">2.23.8.0013.00.0.1027.2041.03.0.0.00.00.0.050.050.000000.bow</item>
+<item id="21">1</item>
+<item id="22">2.22.9.0008.00.0.1022.2030.03.0.0.00.00.0.050.050.000000.crossbow</item>
+<item id="23">1</item>
+
+<item id="24">1</item>
+<item id="25">1</item>
+<item id="26">1</item>
+<item id="27">1</item>
+<item id="28">1</item>
+<item id="29">1</item>
+<item id="30">1</item>
+<item id="31">1</item>
+
+<item id="32">1.11.6.0000.00.0.0000.0000.03.0.0.00.00.0.250.250.000000.arrows</item>
+<item id="33">1.11.7.0000.00.0.0000.0000.03.0.0.00.00.0.250.250.000000.bolts</item>
+<item id="34">1</item>
+<item id="35">1</item>
+<item id="36">1</item>
+<item id="37">1</item>
+<item id="38">2.22.9.0019.00.0.1030.2052.03.0.0.00.00.0.050.050.000000.golden_crossbow</item>
+<item id="39">1</item>
+
+<item id="40">G.11.3.0000.00.0.3052.0000.03.0.0.00.00.0.000.051.000000.healing_orb</item>
+<item id="41">G.11.3.0000.00.0.3072.0000.03.0.0.00.00.0.000.052.000000.orb_of_greater_defense</item>
+<item id="42">G.11.3.0000.00.0.3092.0000.03.0.0.00.00.0.000.053.000000.orb_of_greater_damage</item>
+<item id="43">0</item>
+<item id="44">0</item>
+<item id="45">0</item>
+<item id="46">1</item>
+<item id="47">1</item>
+
+<item id="48">0</item>
+<item id="49">0</item>
+<item id="50">0</item>
+<item id="51">0</item>
+<item id="52">0</item>
+<item id="53">0</item>
+<item id="54">0</item>
+<item id="55">0</item>
+
+<item id="56">0</item>
+<item id="57">0</item>
+<item id="58">0</item>
+<item id="59">0</item>
+<item id="60">0</item>
+<item id="61">0</item>
+<item id="62">0</item>
+<item id="63">0</item>
+
+<item id="64">0</item>
+<item id="65">0</item>
+<item id="66">0</item>
+<item id="67">0</item>
+<item id="68">0</item>
+<item id="69">0</item>
+<item id="70">0</item>
+<item id="71">0</item>
+
+<item id="72">0</item>
+<item id="73">0</item>
+<item id="74">0</item>
+<item id="75">0</item>
+<item id="76">0</item>
+<item id="77">0</item>
+<item id="78">0</item>
+<item id="79">0</item>
+
+<item id="80">0</item>
+<item id="81">0</item>
+<item id="82">0</item>
+<item id="83">0</item>
+<item id="84">0</item>
+<item id="85">0</item>
+<item id="86">0</item>
+<item id="87">0</item>
+
+<item id="88">0</item>
+<item id="89">0</item>
+<item id="90">0</item>
+<item id="91">0</item>
+<item id="92">0</item>
+<item id="93">0</item>
+<item id="94">0</item>
+<item id="95">0</item>
+
+<item id="96">0</item>
+<item id="97">0</item>
+<item id="98">0</item>
+<item id="99">0</item>
+<item id="100">0</item>
+<item id="101">0</item>
+<item id="102">0</item>
+<item id="103">0</item>
+
+<item id="104">0</item>
+<item id="105">0</item>
+<item id="106">0</item>
+<item id="107">0</item>
+<item id="108">0</item>
+<item id="109">0</item>
+<item id="110">0</item>
+<item id="111">0</item>
+
+<item id="112">0</item>
+<item id="113">0</item>
+<item id="114">0</item>
+<item id="115">0</item>
+<item id="116">0</item>
+<item id="117">0</item>
+<item id="118">0</item>
+<item id="119">0</item>
+
+<item>noria2</item>
+<item>NORIA 2</item>
+<item>Eo the Craftsman</item>
+
+</shop>

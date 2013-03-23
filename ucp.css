@@ -1,0 +1,59 @@
+#ucp_back {
+	position: absolute;
+	margin-top: 54px;
+        margin-left: 170px;
+	width: 498px;
+	height: 322px;
+	border: 1px solid #888;
+	background: #c6c6c6;
+	z-index: -1;
+	}
+.ucp_table {
+	width: 558px;
+	height: 420px;
+	margin: auto;
+        margin-top: 8px;
+	overflow: hidden;
+	z-index: -1;
+}
+.ucp_table td {
+        vertical-align: middle;
+	text-align: center;
+	padding: 0px;
+	overflow: hidden;
+}
+.form_table {
+	margin:auto;
+}
+.form_table td {
+	text-align:left;
+	height: 32px;
+}
+#ucp_title {
+	height: 28px;
+	}
+#ucp_title_ins {
+	height: 22px;
+	border: 1px solid #888;
+        background-color: #d8f1e6;
+	padding-top: 4px;
+        font-weight: bold;
+	}
+#ucp_main {
+	background-image:url('logo1000.jpg'); 
+	border: 5px solid #888;
+	height: 320px; 
+	color: White;
+	width: 500px;
+	margin: auto;
+        vertical-align: middle;
+	}
+#ucp_main>img {
+	margin-top: 2px;
+	}
+#js_output {
+	height: 28px;
+	border: 1px solid #888;
+        background-color: #d8f1e6;
+	padding-top: 2px;
+	}

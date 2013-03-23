@@ -1,0 +1,665 @@
+#iframe_battle {
+position: relative;
+left: 0px;
+top: 0px;
+width: 578px;
+height: 578px;
+background: #c6c6c6;
+}
+
+/* infobox
+ ------------ */
+#cinfo {
+	position: absolute;
+	bottom: -200px;
+	left: 350px;
+	height: 190px;
+	width: 320px;
+	z-index: 20;
+	margin: 0 0 -100px -150px;
+	-webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+	border-radius: 10px;
+        text-align: center;
+	background: #FFF;
+	border: solid 2px #999;
+}
+
+#cinfo a>img {
+        border: none;
+}
+#cinfo_title {
+	font-size: 14px;
+        height: 24px;
+	background: #CCC url(images/title.gif) top repeat-x;
+	border: solid 1px #FFF;
+	border-bottom: solid 1px #999;
+        font-weight: bold;
+        padding-top: 4px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-topleft: 10px;
+}
+#close_button {
+        float: right;
+        margin-right: 10px;
+}
+#cinfo_main {
+        width: 300px;
+        height: 120px;
+        margin: auto;
+        margin-top: 6px;
+}
+#cinfo_main_table {
+        width: 100%;
+}
+#cinfo_main_table td {
+        padding: 4px;
+        text-align: left;
+}
+#cinfo_main_table td:first-child {
+        width: 110px;
+}
+#cinfo_avatar {
+	width: 102px;
+	height: 102px;
+        margin: auto;
+        padding: 2px;
+	border: 1px solid #888;
+        background: white;
+}
+#cinfo_avatar>img {
+	border: 1px solid #888;
+}
+#fade_bg {
+	position:absolute;
+	z-index:15;
+	width:100%;
+	height:100%;
+	background: black;
+	opacity:0.40;
+	filter:alpha(opacity=40);
+	visibility:hidden;
+}
+
+#fight_button {
+	margin: auto;
+	background: url(images/button.png) no-repeat 0 0;
+	width: 140px;
+	height: 20px;
+        padding-top: 2px;
+	display: block;
+	text-align: center;
+        font-weight: bold;
+        color: black;
+}
+#fight_button:hover {
+	background-position: 0 -22px;
+        cursor: pointer;
+}
+
+
+#pvp_infobox {
+	height: 70px;
+	width: 180px;
+	z-index: 20;
+	margin: auto;
+	margin-top: 4px;
+	-webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+	border-radius: 6px;
+        text-align: center;
+	background: #FFF;
+	border: solid 2px #999;
+	visibility:hidden;
+}
+#pvp_infobox_title {
+        height: 20px;
+	background: #CCC url(images/title.gif) top repeat-x;
+	border: solid 1px #FFF;
+	border-bottom: solid 1px #999;
+        font-weight: bold;
+        padding-top: 2px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	-moz-border-radius-topright: 6px;
+	-moz-border-radius-topleft: 6px;
+        margin-bottom: 6px;
+}
+
+
+
+.guild_member {
+        margin-top: 1px;
+        background-color: #d8f1e6;
+	border: 1px solid #888;
+	height: 17px;
+	width: 210px;
+        padding-left: 4px;
+}
+
+
+.map_td1 {
+	text-align: left;
+	width: 578px;
+	border: 1px solid #888;
+        background: #c6c6c6;
+}
+
+.battle_hp_move {
+	position: absolute;
+	width: 60px;
+	height: 20px;
+        text-align: center;
+        font-weight: bold;
+}
+
+#player {
+	position: relative;
+	margin-top: 3px;
+	margin-left: 6px;
+	width: 240px;
+	height: 110px;
+        background: white;
+	border: 1px solid #888;
+        cursor: default;
+}
+.battle_avatar {
+	border: 1px solid #888;
+}
+
+#player_battle {
+	position: relative;
+	margin-top: 2px;
+	margin-left: 2px;
+}
+#player_battle_ins {
+	position: relative;
+	width: 128px;
+        height: 103px;
+}
+#player_battle_ins td {
+        padding:0px;
+        vertical-align: middle;
+}
+#battle_name {
+        height: 16px;
+	border: 1px solid #888;
+        text-align: center;
+}
+
+#battle_effects {
+	border: 1px solid #888;
+        height: 34px;
+        vertical-align: middle;
+}
+#battle_effects>img {
+	position: relative;
+	float: left;
+	margin-top: 1px;
+	margin-left: 3px;
+}
+
+#player_action {
+	position: relative;
+        float: left;
+	margin-top: 1px;
+	margin-left: 3px;
+}
+#player_action_desc {
+	position: relative;
+        float: left;
+	margin-left: 3px;
+        text-align: center;
+	width: 94px;
+	height: 32px;
+}
+
+#battle_report {
+	position: relative;
+	margin-top: 8px;
+	margin-left: 6px;
+	width: 240px;
+	height: 180px;
+        background: white;
+	border: 1px solid #888;
+        padding-top: 12px;
+}
+#battle_report_title {
+	position: absolute;
+	top: -8px;
+	left: 30px;
+	width: 160px;
+	height: 16px;
+        background: white;
+	border: 1px solid #888;
+        padding: 0px;
+        text-align: center;
+}
+#js_output {
+	position: relative;
+	margin-left: 5px;
+	width: 232px;
+	height: 164px;
+        overflow: auto;
+}
+
+#turns {
+	position: absolute;
+	width: 56px;
+	height: 38px;
+        top: 8px;
+        left: 258px;
+        padding-top: 10px;
+        background: white;
+	border: 1px solid #888;
+        cursor: default;
+        text-align: center;
+        font-size: 11px;
+        overflow: hidden;
+}
+
+#note {
+	position: absolute;
+	width: 58px;
+	height: 50px;
+        top: 70px;
+        left: 264px;
+        cursor: default;
+        text-align: center;
+}
+
+#enemies {
+	position: absolute;
+	width: 246px;
+	height: 420px;
+        top: 2px;
+        left: 326px;
+}
+
+.enemy {
+	position: relative;
+	margin-top: 6px;
+	margin-left: 2px;
+	width: 240px;
+	height: 72px;
+        background: white;
+	border: 1px solid #888;
+        cursor: default;
+}
+.enemy_ins {
+	position: relative;
+	margin-top: 3px;
+	margin-left: 3px;
+	width: 236px;
+}
+.enemy_ins td {
+	padding: 0px;
+}
+.enemy_ins td:first-child {
+	width: 66px;
+}
+.enemy_avatar>img {
+	border: 1px solid #888;
+}
+.enemy_name {
+	position: relative;
+	margin-left: 2px;
+	width: 160px;
+	height: 44px;
+        background: white;
+	border: 1px solid #888;
+        padding: 2px;
+        overflow: hidden;
+}
+.enemy_effect {
+	position: relative;
+	float: right;
+        margin-top: 3px;
+        margin-right: 3px;
+}
+.enemy_effect_desc {
+	position: relative;
+	width: 20px;
+        text-align: center;
+        top: -2px;
+        font-size: 10px;
+}
+.enemy_health {
+	position: relative;
+	margin-top: 3px;
+	margin-left: 2px;
+	width: 164px;
+	height: 10px;
+        background: white;
+	border: 1px solid #888;
+	background-image: url(images/enemy_health.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+        left: 0px;
+	overflow: hidden;
+}
+
+.defeated_ins {
+	color: #888;
+	font-size: 11px;
+	position: relative;
+	margin-top: 3px;
+	margin-left: 3px;
+	width: 232px;
+	height: 64px;
+        text-align: center;
+	border: 1px solid #888;
+}
+.defeated_name {
+	font-size: 12px;
+	color: black;
+	position: relative;
+	margin-top: 2px;
+	margin-left: 6px;
+	width: 218px;
+	height: 18px;
+	border-bottom: 1px dashed #888;
+        overflow: hidden;
+}
+.defeated_exp {
+	font-size: 11px;
+        float: left;
+	margin-top: 3px;
+	width: 115px;
+	height: 18px;
+}
+.defeated_no_item, .defeated_item {
+	position: relative;
+	margin-top: 4px;
+	width: 230px;
+	height: 18px;
+        overflow: hidden;
+}
+.defeated_item_ins:hover {
+        color: #d28512;
+}
+
+.pointer {
+	position: absolute;
+        top: 30px;
+        left: -7px;
+        visibility: hidden;
+}
+
+.pointer1 {
+	position: absolute;
+        top: 30px;
+        right: -7px;
+        visibility: hidden;
+}
+
+#player .pointer, #player .pointer1 {
+        top: 46px;
+}
+
+#enemy_buttons {
+	position: relative;
+	margin-top: 3px;
+	margin-left: 2px;
+	width: 240px;
+	height: 26px;
+	text-align: center;
+}
+
+#newui {
+	position: absolute;
+	margin-left: 8px;
+	width: 560px;
+	height: 55px;
+	bottom: 46px;
+	border: 1px solid #888;
+	background: url(images/newui.gif) no-repeat;
+}
+#newui_table {
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+
+#newui_table td {
+	border: none;
+        padding: 0px;
+}
+#separator {
+	width: 2px;
+}
+
+.map_td2 {
+	border: 1px solid #888;
+        background: #c6c6c6;
+}
+
+#spot_name
+{
+	position: relative;
+	top: 4px;
+	width: 230px;
+	height: 18px;
+	margin: auto;
+	border: 1px solid #888;
+        background: white;
+	text-align: center;
+	padding: 4px;
+}
+
+#spot_exp
+{
+	position: relative;
+	width: 230px;
+	height: 18px;
+	margin: auto;
+	margin-top: 8px;
+	border: 1px solid #888;
+        background: white;
+	text-align: center;
+	padding: 4px;
+}
+
+#players_list
+{
+	position: relative;
+	margin: auto;
+	margin-top: 4px;
+	width: 220px;
+	height: 380px;
+	border: 1px solid #888;
+        background: white;
+	text-align: left;
+	padding-top: 9px;
+	padding-left: 9px;
+	padding-right: 9px;
+}
+
+/* gui
+ ------------ */
+.potion {
+        padding: 0px;
+        width: 39px;
+        text-align: center;
+}
+#potion_hp, #potion_mp, #antidote {
+        margin-top: 7px;
+	position: relative;
+        top: 0px;
+}
+
+#potion_hp_desc, #potion_mp_desc, #antidote_desc
+{
+	position: absolute;
+	width: 39px;
+	height: 12px;
+	z-index: 2;
+        top: -20px;
+        text-align: center;
+}
+
+#hp_gui
+{
+	position: relative;
+	width: 45px;
+	height: 39px;
+        margin-top: 3px;
+	z-index: 2;
+	background-image: url(images/newui_menu_red.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+        top: 0px;
+        left: 1px;
+	overflow: hidden;
+}
+#mp_gui
+{
+	position: relative;
+	width: 45px;
+	height: 39px;
+        margin-top: 3px;
+	z-index: 2;
+	background-image: url(images/newui_menu_blue.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+        top: 0px;
+        left: -1px;
+	overflow: hidden;
+}
+#hp_gui_desc, #mp_gui_desc
+{
+	position: absolute;
+	width: 80px;
+	height: 20px;
+	z-index: 2;
+        top: -20px;
+	overflow: hidden;
+}
+
+#attack
+{
+	position: relative;
+        margin-left: 14px;
+        margin-top: 9px;
+	z-index: 3;
+}
+
+#arrows_desc
+{
+	position: absolute;
+	width: 80px;
+	height: 20px;
+        top: -20px;
+	z-index: 3;
+}
+
+
+/* skills
+ ------------ */
+.action_cont {
+        width: 32px;
+        height: 38px;
+        text-align: center;
+	float: left;
+}
+.action {
+	position: relative;
+	margin-top: 6px;
+}
+
+.main_view {
+	position: relative;
+	font-family: Verdana;
+	font-size: 13px;
+	z-index: 90;
+	visibility:visible;
+        margin-top: 3px;
+}
+
+.window {
+	height:38px;
+	width: 192px;
+	overflow: hidden;
+	position: relative;
+}
+.image_reel {
+	position: absolute;
+	top: 0; left: 0;
+}
+
+.paging {
+	position: relative;
+	z-index: 100;
+	text-align: center;
+	line-height: 20px;
+}
+
+.paging_left {
+}
+.paging_right {
+}
+
+.paging a {
+	display: block;
+	width: 20px;
+	height:43px;
+	padding: 0px;
+}
+.paging_left a {
+	background: url(images/skills_btn_left.gif) no-repeat;
+}
+.paging_left a:hover {
+	background: url(images/skills_btn_left_a.gif) no-repeat;
+}
+.paging_right a {
+	background: url(images/skills_btn_right.gif) no-repeat;
+}
+.paging_right a:hover {
+	background: url(images/skills_btn_right_a.gif) no-repeat;
+}
+
+
+
+/* experience
+ ------------ */
+.exp_table {
+	position: relative;
+
+        width: 560px;
+        height: 8px;
+        overflow: hidden;
+        line-height: 8px;
+	/*border: 1px solid #888;*/
+}
+.exp_table td {
+	padding: 0px;
+	vertical-align: top;
+}
+
+.exp_table td:first-child {
+        width: 544px;
+	vertical-align: top;
+}
+
+#exp_bars {
+        height: 8px;
+	padding: 0px;
+        margin-left:3px;
+        margin-top:1px;
+        overflow: hidden;
+        line-height: 4px;
+	background-image: url(images/battle_exp.gif);
+	background-repeat: no-repeat;
+	background-position: -540px 0px;
+        left: 0px;
+	overflow: hidden;
+}
+
+#exp_numb {
+        color: white;
+        font-weight: bold;
+        margin-left:3px;
+        margin-top:0px;
+}

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<shop>
+<item id="0">G.12.2.0000.00.0.3040.0000.16.0.0.00.00.0.000.031.000000.scroll_of_fire_ball</item>
+<item id="1">G.12.2.0000.00.0.3056.0000.16.0.0.00.00.0.000.032.000000.scroll_of_power_wave</item>
+<item id="2">G.12.2.0000.00.0.3104.0000.16.0.0.00.00.0.000.033.000000.scroll_of_meteor</item>
+<item id="3">G.12.2.0000.00.0.3072.0000.14.0.0.00.00.0.000.034.000000.scroll_of_lighting</item>
+<item id="4">G.12.2.0000.00.0.3120.0000.16.0.0.00.00.0.000.035.000000.scroll_of_ice</item>
+<item id="5">G.12.2.0000.00.0.3140.0000.14.0.0.00.00.0.000.036.000000.scroll_of_poison</item>
+<item id="6">5.22.0.0004.00.0.1023.0000.14.0.0.00.00.0.022.022.000000.pad_helm</item>
+<item id="7">1</item>
+
+<item id="8">1</item>
+<item id="9">1</item>
+<item id="10">1</item>
+<item id="11">1</item>
+<item id="12">1</item>
+<item id="13">1</item>
+<item id="14">1</item>
+<item id="15">1</item>
+
+<item id="16">3.22.0.0007.00.0.1029.0000.14.0.0.00.00.0.022.022.000000.pad_armor</item>
+<item id="17">1</item>
+<item id="18">4.22.0.0005.00.0.1027.0000.14.0.0.00.00.0.022.022.000000.pad_pants</item>
+<item id="19">1</item>
+<item id="20">6.22.0.0002.00.0.1021.0000.14.0.0.00.00.0.022.022.000000.pad_gloves</item>
+<item id="21">1</item>
+<item id="22">7.22.0.0003.00.0.1022.0000.14.0.0.00.00.0.022.022.000000.pad_boots</item>
+<item id="23">1</item>
+
+<item id="24">1</item>
+<item id="25">1</item>
+<item id="26">1</item>
+<item id="27">1</item>
+<item id="28">1</item>
+<item id="29">1</item>
+<item id="30">1</item>
+<item id="31">1</item>
+
+<item id="32">1.13.3.0004.00.0.1027.0000.14.0.0.00.00.0.050.050.000000.skull_staff</item>
+<item id="33">2.23.3.0012.00.0.1047.0000.14.0.0.00.00.0.050.050.000000.angelic_staff</item>
+<item id="34">1</item>
+<item id="35">2.23.3.0018.00.0.1065.0000.14.0.0.00.00.0.050.050.000000.serpent_staff</item>
+<item id="36">1</item>
+<item id="37">0</item>
+<item id="38">0</item>
+<item id="39">0</item>
+
+<item id="40">1</item>
+<item id="41">1</item>
+<item id="42">1</item>
+<item id="43">1</item>
+<item id="44">1</item>
+<item id="45">0</item>
+<item id="46">0</item>
+<item id="47">0</item>
+
+<item id="48">1</item>
+<item id="49">1</item>
+<item id="50">1</item>
+<item id="51">1</item>
+<item id="52">1</item>
+<item id="53">0</item>
+<item id="54">0</item>
+<item id="55">0</item>
+
+<item id="56">0</item>
+<item id="57">0</item>
+<item id="58">0</item>
+<item id="59">0</item>
+<item id="60">0</item>
+<item id="61">0</item>
+<item id="62">0</item>
+<item id="63">0</item>
+
+<item id="64">0</item>
+<item id="65">0</item>
+<item id="66">0</item>
+<item id="67">0</item>
+<item id="68">0</item>
+<item id="69">0</item>
+<item id="70">0</item>
+<item id="71">0</item>
+
+<item id="72">0</item>
+<item id="73">0</item>
+<item id="74">0</item>
+<item id="75">0</item>
+<item id="76">0</item>
+<item id="77">0</item>
+<item id="78">0</item>
+<item id="79">0</item>
+
+<item id="80">0</item>
+<item id="81">0</item>
+<item id="82">0</item>
+<item id="83">0</item>
+<item id="84">0</item>
+<item id="85">0</item>
+<item id="86">0</item>
+<item id="87">0</item>
+
+<item id="88">0</item>
+<item id="89">0</item>
+<item id="90">0</item>
+<item id="91">0</item>
+<item id="92">0</item>
+<item id="93">0</item>
+<item id="94">0</item>
+<item id="95">0</item>
+
+<item id="96">0</item>
+<item id="97">0</item>
+<item id="98">0</item>
+<item id="99">0</item>
+<item id="100">0</item>
+<item id="101">0</item>
+<item id="102">0</item>
+<item id="103">0</item>
+
+<item id="104">0</item>
+<item id="105">0</item>
+<item id="106">0</item>
+<item id="107">0</item>
+<item id="108">0</item>
+<item id="109">0</item>
+<item id="110">0</item>
+<item id="111">0</item>
+
+<item id="112">0</item>
+<item id="113">0</item>
+<item id="114">0</item>
+<item id="115">0</item>
+<item id="116">0</item>
+<item id="117">0</item>
+<item id="118">0</item>
+<item id="119">0</item>
+
+<item>lorencia3</item>
+<item>LORENCIA 3</item>
+<item>Pasi the Mage</item>
+
+</shop>

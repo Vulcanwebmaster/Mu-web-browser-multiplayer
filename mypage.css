@@ -1,0 +1,40 @@
+#my_page_td1, #my_page_td2, #my_page_td3 {
+	text-align: center;
+	width: 33%;
+	padding: 2px;
+}
+#my_page_td2, #my_page_td3 {
+	/*border-left: 1px dashed #888;*/
+}
+.header {
+	margin: auto;
+        margin-top: 4px;
+        background-color: #d8f1e6;
+	border: 1px solid #888;
+	height: 20px;
+	width: 240px;
+        padding: 4px;
+        font-weight: bold;
+}
+.my_page_data {
+	margin: auto;
+        margin-top: 4px;
+	background: white;
+	border: 1px solid #888;
+	height: 220px;
+	width: 240px;
+        padding: 4px;
+	text-align: left;
+}
+.my_page_data input {
+        margin-bottom: 2px;
+}
+
+#mypage_error {
+        font-weight: bold;
+	color: #FF3333;
+}
+#mypage_success {
+        font-weight: bold;
+	color: #1ad46d;
+}

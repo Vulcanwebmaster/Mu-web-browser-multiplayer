@@ -1,0 +1,107 @@
+.pstore_info {
+	text-align: center;
+        padding-top: 4px;
+	border: 1px solid #888;
+	height: 24px;
+	background: white;
+	}
+.pstore_buttons {
+	text-align: center;
+	padding-top: 1px;
+	height: 26px;
+	}
+.npc32_table {
+        top: 0px;
+	width: 558px;
+	height: 570px;
+	margin: auto;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.npc32_table td {
+        vertical-align: middle;
+	text-align: center;
+	padding: 0px;
+	overflow: hidden;
+}
+#npc32_separator {
+	height: 90%;
+}
+
+#pstore_back {
+	position: absolute;
+	top: 262px;
+	left: 10px;
+	width: 536px;
+	height: 140px;
+	border: 1px solid #888;
+	background: #c6c6c6;
+	z-index: -1;
+	}
+#pstore_legend {
+	position: absolute;
+	left: 60px;
+	top: 266px;
+        vertical-align: top;
+	text-align: justify;
+	width: 420px;
+	height: 120px;
+	background: white;
+	border: 1px solid #888;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: auto;
+	}
+#pstore_picture {
+	top: 40px;
+	left: 10px;
+	width: 250px;
+	height: 206px;
+	border: 1px solid #888;
+	position: absolute;
+	}
+#npc32_main {
+	background: #c6c6c6;
+	border: 1px solid #888;
+        vertical-align: top;
+	}
+#npc32_inventory {
+	top: 40px;
+	left: 270px;
+	position: absolute;
+	border: 1px solid #888;
+	background: #c6c6c6;
+	}
+.npc32_inventory {
+	border: 1px solid #888;
+        background: white;
+	position: inherit;
+	}
+.npc32_inventory td {
+	width: 32px;
+	height: 32px;
+	background: #999999;
+	overflow: hidden;
+        vertical-align: top;
+	padding: 0px;
+	}
+.npc32_inventory td.occupied {
+	background: #5E767E;
+	}
+.npc32_inventory td.dropactive {
+	background: #669966;
+	}
+.npc32_inventory td.dropactivered {
+	background: #806D7E;
+	}
+#mix_button_td {
+        vertical-align: top;
+	padding-top: 4px;
+	padding-left: 4px;
+	}
+#js_output {
+	border: 1px dashed #888;
+	height: 24px;
+	}

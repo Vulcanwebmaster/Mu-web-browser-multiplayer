@@ -1,0 +1,264 @@
+/* infobox
+ ------------ */
+#cinfo {
+	position: absolute;
+	bottom: -200px;
+	left: 350px;
+	height: 190px;
+	width: 320px;
+	z-index: 20;
+	margin: 0 0 -100px -150px;
+	-webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+	border-radius: 10px;
+        text-align: center;
+	background: #FFF;
+	border: solid 2px #999;
+}
+#cinfo a>img {
+        border: none;
+}
+#cinfo_title {
+	font-size: 14px;
+        height: 24px;
+	background: #CCC url(images/title.gif) top repeat-x;
+	border: solid 1px #FFF;
+	border-bottom: solid 1px #999;
+        font-weight: bold;
+        padding-top: 4px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-topleft: 10px;
+}
+#close_button {
+        float: right;
+        margin-right: 10px;
+}
+#cinfo_main {
+        width: 300px;
+        height: 120px;
+        margin: auto;
+        margin-top: 6px;
+}
+#cinfo_main_table {
+        width: 100%;
+}
+#cinfo_main_table td {
+        padding: 4px;
+        text-align: left;
+}
+#cinfo_main_table td:first-child {
+        width: 110px;
+}
+#cinfo_avatar {
+	width: 102px;
+	height: 102px;
+        margin: auto;
+        padding: 2px;
+	border: 1px solid #888;
+        background: white;
+}
+#cinfo_avatar>img {
+	border: 1px solid #888;
+}
+#fade_bg {
+	position:absolute;
+	z-index:15;
+	width:100%;
+	height:100%;
+	background: black;
+	opacity:0.40;
+	filter:alpha(opacity=40);
+	visibility:hidden;
+}
+/* market
+ ------------ */
+.npc32_table {
+	width: 558px;
+	height: 570px;
+	margin: auto;
+	overflow: hidden;
+	position: absolute;
+
+}
+.npc32_table td {
+        vertical-align: top;
+	text-align: center;
+	padding: 0px;
+	overflow: hidden;
+}
+#npc32_separator {
+	height: 75%;
+}
+#pstore_title {
+	height: 28px;
+	}
+#pstore_title_ins {
+	height: 22px;
+	border: 1px solid #888;
+        background-color: #d8f1e6;
+        font-weight: bold;
+	padding-top: 4px;
+	}
+.market_table {
+	width: 100%;
+	margin: auto;
+	margin-top: 10px;
+	border-right: 1px solid #888;
+	border-bottom: 1px solid #888;
+	overflow: hidden;
+}
+.market_table td {
+	border-left: 1px solid #888;
+	padding: 3px;
+	text-align: left;
+}
+.market_head td {
+	color:white;
+	background: #666666;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+}
+.even {
+	background-color: #c6c6c6;
+}
+.m_type, .m_owner, .m_opt, .m_exc {
+	width: 32px;
+}
+.m_id {
+	width: 54px;
+}
+.m_price, .m_experience, .m_monsters {
+	overflow: hidden;
+	width: 80px;
+}
+.m_name {
+	overflow: hidden;
+}
+.m_location {
+	overflow: hidden;
+	width: 180px;
+}
+.zen_table1
+{
+	position: absolute;
+	top: 540px;
+	width: 268px;
+	height: 32px;
+	margin-left: 3px;
+}
+.zen_table1 td
+{
+	border: 1px solid #888;
+        background: white;
+	text-align: left;
+	padding: 4px;
+}
+.zen_table1 td:first-child
+{
+	width: 64px;
+}
+.mcheck {
+	margin-left: 2px;
+	margin-right: 2px;
+	position: relative;
+	background: white;
+	border: 1px solid #888;
+	padding: 4px;
+        
+}
+.mcheck_ins td {
+	width: 124px;
+}
+.mcheck_head {
+	position: absolute;
+	top: -10px;
+	background: white;
+	border: 1px solid #888;
+	width: 150px;
+	height: 20px;
+	text-align: center;
+	padding-top: 2px;
+}
+.mcheck_submit {
+	margin-left: 100px;
+}
+.market_item:hover {
+        color: #d28512;
+}
+/* guild
+ ------------ */
+.guild_header {
+        margin: auto;
+        margin-top: 4px;
+        background-color: #d8f1e6;
+	border: 1px solid #888;
+	height: 20px;
+	width: 240px;
+        padding: 4px;
+        font-weight: bold;
+}
+.guild_data {
+        margin: auto;
+        margin-top: 4px;
+	background: white;
+	border: 1px solid #888;
+	height: 220px;
+	width: 240px;
+        padding: 4px;
+	text-align: center;
+}
+#guild_desc {
+        margin: auto;
+        margin-top: 4px;
+        vertical-align: top;
+	text-align: justify;
+	width: 420px;
+	height: 120px;
+	background: white;
+	border: 1px solid #888;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+}
+#guild_desc_back {
+        position: relative;
+	left: 10px;
+	width: 536px;
+	height: 140px;
+	border: 1px solid #888;
+	background: #c6c6c6;
+}
+#guild_main {
+	height: 280px;
+        padding-left: 5px;
+}
+#guild_separator {
+	width: 23px;
+}
+#guild_ins td {
+	padding: 4px;
+}
+#guild_ins td>img {
+	border: 1px solid #888;
+        margin-top: 4px;
+}
+
+#guild_list {
+	width: 256px;
+}
+#guild_list td {
+	padding-top: 2px;
+}
+#guild_list td:first-child {
+        width: 60%;
+}
+
+#guild_list td>a>img {
+border-style: none;
+}
+
+#guild_list td>a:hover {
+color: #888;
+}

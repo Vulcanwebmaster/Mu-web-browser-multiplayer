@@ -1,0 +1,185 @@
+.map_td1 {
+	text-align: left;
+	width: 578px;
+	border: 1px solid #888;
+        background: #c6c6c6;
+}
+.map_container {
+	position: relative;
+	margin-top: 4px;
+	margin-left: 3px;
+}
+#map_return {
+	position: absolute;
+	width: 160px;
+	height: 22px;
+	right: 6px;
+	bottom: 6px;
+        opacity: 0.70;
+        filter: alpha(opacity=70);
+	border: 1px solid white;
+        background: black;
+        color: white;
+	text-align: center;
+	padding-top: 6px;
+	z-index: 3;
+	visibility: hidden;
+}
+#map_return a {
+        display: block;
+        text-decoration: none;
+        color: white;
+}
+#map_return a:hover {
+        color: #d28512;
+}
+.map_td2 {
+	border: 1px solid #888;
+        background: #c6c6c6;
+}
+.map_point {
+	position: absolute;
+	width: 26px;
+	height: 26px;
+        opacity: 0.52;
+        filter: alpha(opacity=52);
+	border: 1px solid white;
+        background: black;
+}
+#lorencia {
+	left: 280px;
+	top: 186px;
+}
+#noria {
+	left: 372px;
+	top: 236px;
+}
+#elbeland {
+	left: 310px;
+	top: 136px;
+}
+#dungeon {
+	left: 336px;
+	top: 200px;
+}
+#devias {
+	left: 234px;
+	top: 132px;
+}
+.new_map {
+	position: absolute;
+}
+.map_spot {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+        opacity: 0.52;
+        filter: alpha(opacity=52);
+	border: 1px solid white;
+        background: black;
+}
+#map_name
+{
+	position: relative;
+	top: 4px;
+	width: 230px;
+	height: 18px;
+	margin: auto;
+	border: 1px solid #888;
+        background: white;
+	text-align: center;
+	padding: 4px;
+}
+#map_spot_div {
+	visibility: hidden;
+}
+#map_spot_chars
+{
+	position: relative;
+	margin: auto;
+	margin-top: 8px;
+	width: 230px;
+	height: 18px;
+	border: 1px solid #888;
+        background: white;
+	text-align: center;
+	padding: 4px;
+}
+#map_spot_pic
+{
+	position: relative;
+	margin: auto;
+	margin-top: 8px;
+	width: 230px;
+	height: 152px;
+	border: 1px solid #888;
+        background: white;
+	text-align: center;
+	padding: 4px;
+}
+#map_spot_enc
+{
+	position: relative;
+	margin: auto;
+	margin-top: 8px;
+	width: 230px;
+	height: 18px;
+	border: 1px solid #888;
+        background: white;
+	text-align: center;
+	padding: 4px;
+}
+#map_spot_enc_legend
+{
+	position: relative;
+	margin: auto;
+	margin-top: 8px;
+	width: 230px;
+	height: 80px;
+	border: 1px solid #888;
+        background: white;
+	text-align: left;
+	padding: 4px;
+}
+#enter_spot {
+	position: relative;
+	margin: auto;
+	margin-top: 8px;
+	text-align: center;
+	padding: 4px;
+}
+#enter_spot_button {
+	margin: auto;
+	background: url(images/button.png) no-repeat 0 0;
+	width: 140px;
+	height: 20px;
+        padding-top: 2px;
+	display: block;
+	text-align: center;
+        font-weight: bold;
+        color: black;
+}
+#enter_spot_button:hover {
+	background-position: 0 -22px;
+        cursor: pointer;
+}
+.enc_monster
+{
+	position: relative;
+	margin-left: 8px;
+
+	margin-top: 6px;
+	border: 1px solid #888;
+}
+.map_npc {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+        opacity: 0.52;
+        filter: alpha(opacity=52);
+	border: 1px solid white;
+        background: black;
+        color: white;
+	text-align: center;
+        cursor: default;
+}

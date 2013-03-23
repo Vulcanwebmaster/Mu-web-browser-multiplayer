@@ -1,0 +1,125 @@
+.npc32_table {
+	width: 558px;
+	height: 570px;
+        left: 1px;
+	margin: auto;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.npc32_table td {
+        vertical-align: middle;
+	text-align: center;
+	padding: 0px;
+	overflow: hidden;
+}
+#npc32_separator {
+	height: 90%;
+}
+#npc32_inventory_ani {
+	position: absolute;
+	z-index: 5;
+	opacity:0.70;
+	filter:alpha(opacity=70);
+	}
+#npc32_back {
+	top: 40px;
+	left: 30px;
+	width: 498px;
+	height: 332px;
+	border: 1px solid #888;
+	background: #c6c6c6;
+	position: absolute;
+	z-index: -1;
+	}
+#npc32_back2 {
+	position: absolute;
+	background: #c6c6c6;
+	border: 1px solid #888;
+        vertical-align: top;
+	top: 392px;
+	left: 2px;
+	width: 554px;
+	height: 150px;
+	z-index: -1;
+	}
+
+#npc32_picture {
+	height: 362px;
+        width: 242px;
+	overflow: hidden;
+	}
+#npc32_legend {
+        vertical-align: middle;
+	text-align: left;
+	width: 320px;
+	overflow: hidden;
+	}
+#npc32_legend_ins {
+        vertical-align: top;
+	text-align: justify;
+	width: 268px;
+	height: 222px;
+background: white;
+	border: 1px solid #888;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: auto;
+	}
+#npc32_legend_pr {
+        vertical-align: top;
+	text-align: left;
+	width: 268px;
+	height: 42px;
+background: black;
+color: white;
+opacity:0.78;
+filter:alpha(opacity=78);
+	border: 1px solid #888;
+        padding-top: 6px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: auto;
+	}
+#npc32_main {
+        height: 150px;
+	}
+#inventory_wrap {
+        padding-top: 399px;
+        padding-left: 135px;
+}
+#npc32_inventory {
+	position: inherit;
+	}
+.npc32_inventory {
+	border: 1px solid #888;
+        background: white;
+	position: inherit;
+	}
+.npc32_inventory td {
+	width: 32px;
+	height: 32px;
+	background: #999999;
+	overflow: hidden;
+        vertical-align: top;
+	padding: 0px;
+	}
+.npc32_inventory td.occupied {
+	background: #5E767E;
+	}
+.npc32_inventory td.dropactive {
+	background: #669966;
+	}
+.npc32_inventory td.dropactivered {
+	background: #806D7E;
+	}
+#mix_button_td {
+        vertical-align: top;
+	padding-top: 4px;
+	padding-left: 4px;
+	}
+#js_output {
+	border: 1px dashed #888;
+	height: 24px;
+	}

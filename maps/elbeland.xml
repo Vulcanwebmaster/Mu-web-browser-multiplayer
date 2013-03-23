@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<map>
+<!-- monster data -->
+<monster name="strange_rabbit">
+<level>4</level>
+<hp>60</hp>
+<damage>13</damage>
+<defense>3</defense>
+<damage_rate>18</damage_rate>
+<defense_rate>3</defense_rate>
+</monster>
+<monster name="polluted_butterfly">
+<level>13</level>
+<hp>230</hp>
+<damage>62</damage>
+<defense>13</defense>
+<damage_rate>58</damage_rate>
+<defense_rate>13</defense_rate>
+</monster>
+<monster name="hideous_rabbit">
+<level>19</level>
+<hp>520</hp>
+<damage>72</damage>
+<defense>22</defense>
+<damage_rate>90</damage_rate>
+<defense_rate>22</defense_rate>
+</monster>
+<monster name="werewolf">
+<level>24</level>
+<hp>720</hp>
+<damage>90</damage>
+<defense>30</defense>
+<damage_rate>120</damage_rate>
+<defense_rate>30</defense_rate>
+</monster>
+<monster name="cursed_lich">
+<level>30</level>
+<hp>900</hp>
+<damage>130</damage>
+<defense>43</defense>
+<damage_rate>150</damage_rate>
+<defense_rate>33</defense_rate>
+</monster>
+<monster name="totem_golem">
+<level>36</level>
+<hp>1200</hp>
+<damage>145</damage>
+<defense>60</defense>
+<damage_rate>180</damage_rate>
+<defense_rate>43</defense_rate>
+</monster>
+<monster name="grizzly">
+<level>43</level>
+<hp>2400</hp>
+<damage>200</damage>
+<defense>75</defense>
+<damage_rate>210</damage_rate>
+<defense_rate>52</defense_rate>
+</monster>
+<monster name="captain_grizzly">
+<level>48</level>
+<hp>3000</hp>
+<damage>220</damage>
+<defense>90</defense>
+<damage_rate>240</damage_rate>
+<defense_rate>70</defense_rate>
+</monster>
+<!-- npc -->
+<npc id="leah" type="s" x="520" y="68">shop.php?id=elbeland1</npc>
+<npc id="marseille" type="s" x="490" y="78">shop.php?id=elbeland2</npc>
+<!-- spots -->
+<spot id="spot21" x="340" y="100">
+<encounter>strange_rabbit</encounter>
+</spot>
+<spot id="spot22" x="340" y="260">
+<encounter>polluted_butterfly</encounter>
+<encounter>hideous_rabbit</encounter>
+</spot>
+<spot id="spot23" x="112" y="222">
+<encounter>cursed_lich</encounter>
+<encounter>werewolf</encounter>
+</spot>
+<spot id="spot24" x="340" y="436">
+<encounter>totem_golem</encounter>
+</spot>
+<spot id="spot25" x="180" y="400">
+<encounter>grizzly</encounter>
+</spot>
+<spot id="spot26" x="110" y="450">
+<encounter>grizzly</encounter>
+<encounter>captain_grizzly</encounter>
+</spot>
+</map>

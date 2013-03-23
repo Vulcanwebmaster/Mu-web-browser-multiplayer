@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<map>
+<!-- monster data -->
+<monster name="spider">
+<level>2</level>
+<hp>30</hp>
+<damage>7</damage>
+<defense>1</defense>
+<damage_rate>8</damage_rate>
+<defense_rate>1</defense_rate>
+</monster>
+<monster name="budge_dragon">
+<level>4</level>
+<hp>60</hp>
+<damage>13</damage>
+<defense>3</defense>
+<damage_rate>18</damage_rate>
+<defense_rate>3</defense_rate>
+</monster>
+<monster name="bull_fighter">
+<level>6</level>
+<hp>100</hp>
+<damage>20</damage>
+<defense>6</defense>
+<damage_rate>28</damage_rate>
+<defense_rate>6</defense_rate>
+</monster>
+<monster name="hound">
+<level>9</level>
+<hp>140</hp>
+<damage>27</damage>
+<defense>9</defense>
+<damage_rate>39</damage_rate>
+<defense_rate>9</defense_rate>
+</monster>
+<monster name="elite_bull_fighter">
+<level>12</level>
+<hp>190</hp>
+<damage>40</damage>
+<defense>12</defense>
+<damage_rate>50</damage_rate>
+<defense_rate>12</defense_rate>
+</monster>
+<monster name="lich">
+<level>14</level>
+<hp>255</hp>
+<damage>50</damage>
+<defense>15</defense>
+<damage_rate>62</damage_rate>
+<defense_rate>14</defense_rate>
+</monster>
+<monster name="giant">
+<level>17</level>
+<hp>400</hp>
+<damage>70</damage>
+<defense>20</defense>
+<damage_rate>80</damage_rate>
+<defense_rate>18</defense_rate>
+</monster>
+<monster name="skeleton">
+<level>19</level>
+<hp>525</hp>
+<damage>84</damage>
+<defense>22</defense>
+<damage_rate>93</damage_rate>
+<defense_rate>22</defense_rate>
+</monster>
+<!-- npc -->
+<npc id="lumen" type="s" x="288" y="274">shop.php?id=lorencia1</npc>
+<npc id="hanzo" type="s" x="314" y="260">shop.php?id=lorencia2</npc>
+<npc id="pasi" type="s" x="242" y="260">shop.php?id=lorencia3</npc>
+<!-- spots -->
+<spot id="spot1" x="280" y="430">
+<encounter>spider</encounter>
+</spot>
+<spot id="spot2" x="360" y="460">
+<encounter>spider</encounter>
+<encounter>budge_dragon</encounter>
+</spot>
+<spot id="spot3" x="150" y="380">
+<encounter>bull_fighter</encounter>
+<encounter>budge_dragon</encounter>
+</spot>
+<spot id="spot4" x="360" y="120">
+<encounter>hound</encounter>
+<encounter>elite_bull_fighter</encounter>
+</spot>
+
+<spot id="spot5" x="100" y="60">
+<encounter>hound</encounter>
+<encounter>elite_bull_fighter</encounter>
+<encounter>giant</encounter>
+</spot>
+<spot id="spot6" x="420" y="240">
+<encounter>hound</encounter>
+<encounter>elite_bull_fighter</encounter>
+<encounter>lich</encounter>
+</spot>
+<spot id="spot7" x="480" y="310">
+<encounter>skeleton</encounter>
+<encounter>lich</encounter>
+</spot>
+</map>

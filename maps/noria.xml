@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<map>
+<!-- monster data -->
+<monster name="goblin">
+<level>3</level>
+<hp>45</hp>
+<damage>20</damage>
+<defense>2</defense>
+<damage_rate>13</damage_rate>
+<defense_rate>2</defense_rate>
+</monster>
+<monster name="chain_scorpion">
+<level>5</level>
+<hp>80</hp>
+<damage>17</damage>
+<defense>4</defense>
+<damage_rate>23</damage_rate>
+<defense_rate>4</defense_rate>
+</monster>
+<monster name="elite_goblin">
+<level>8</level>
+<hp>120</hp>
+<damage>33</damage>
+<defense>10</defense>
+<damage_rate>33</damage_rate>
+<defense_rate>8</defense_rate>
+</monster>
+<monster name="beetle_monster">
+<level>10</level>
+<hp>165</hp>
+<damage>31</damage>
+<defense>10</defense>
+<damage_rate>44</damage_rate>
+<defense_rate>10</defense_rate>
+</monster>
+<monster name="hunter">
+<level>13</level>
+<hp>220</hp>
+<damage>50</damage>
+<defense>13</defense>
+<damage_rate>56</damage_rate>
+<defense_rate>13</defense_rate>
+</monster>
+<monster name="forest_monster">
+<level>15</level>
+<hp>295</hp>
+<damage>70</damage>
+<defense>15</defense>
+<damage_rate>68</damage_rate>
+<defense_rate>15</defense_rate>
+</monster>
+<monster name="agon">
+<level>16</level>
+<hp>340</hp>
+<damage>77</damage>
+<defense>18</defense>
+<damage_rate>74</damage_rate>
+<defense_rate>16</defense_rate>
+</monster>
+<monster name="stone_golem">
+<level>18</level>
+<hp>465</hp>
+<damage>78</damage>
+<defense>20</defense>
+<damage_rate>86</damage_rate>
+<defense_rate>20</defense_rate>
+</monster>
+<!-- npc -->
+<npc id="lala" type="s" x="272" y="382">shop.php?id=noria1</npc>
+<npc id="eo" type="s" x="280" y="440">shop.php?id=noria2</npc>
+<!-- spots -->
+<spot id="spot11" x="120" y="440">
+<encounter>chain_scorpion</encounter>
+<encounter>goblin</encounter>
+</spot>
+<spot id="spot12" x="180" y="240">
+<encounter>chain_scorpion</encounter>
+<encounter>goblin</encounter>
+<encounter>beetle_monster</encounter>
+</spot>
+<spot id="spot13" x="160" y="140">
+<encounter>hunter</encounter>
+<encounter>beetle_monster</encounter>
+</spot>
+<spot id="spot14" x="300" y="140">
+<encounter>elite_goblin</encounter>
+<encounter>forest_monster</encounter>
+<encounter>agon</encounter>
+</spot>
+<spot id="spot15" x="400" y="240">
+<encounter>elite_goblin</encounter>
+<encounter>agon</encounter>
+</spot>
+<spot id="spot16" x="420" y="440">
+<encounter>forest_monster</encounter>
+<encounter>stone_golem</encounter>
+</spot>
+</map>
